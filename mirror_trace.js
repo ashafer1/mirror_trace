@@ -66,13 +66,13 @@ var materials = {
 
 function do_mirror() {	
 	//load materials
-	var imagePath = materials.trialh1.png [1];	
-	mirror = materials.mirror[1];
-	var xstart = materials.xstarts[1];
-	var ystart = materials.ystarts[1];;
+	var imagePath = materials.file_names [trialnumber];	
+	mirror = materials.mirror[trialnumber];
+	var xstart = materials.xstarts[trialnumber];
+	var ystart = materials.ystarts[trialnumber];;
 	var startRadius = 15;
-	var xend = materials.xends[1];
-	var yend = materials.yends[1];
+	var xend = materials.xends[trialnumber];
+	var yend = materials.yends[trialnumber];
 	var endRadius = 7;
 
 	
